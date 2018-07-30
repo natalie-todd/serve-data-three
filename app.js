@@ -28,7 +28,7 @@ app.get('/:id', function (req, res) {
             }
         })
     } else {
-        res.json({ data: student })
+        res.json({ data: student });
     }
 })
-app.listen(port, () => console.log(`listening on http://localhost:${port}`))
+app.listen(port, () => console.log(`listening on http://localhost:${port}`));
